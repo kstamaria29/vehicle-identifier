@@ -165,7 +165,7 @@ export default function App() {
       {/* <div className="p-1 bg-blue-200/30 w-22 mt-3 rounded-full backdrop-blur-xs mb-3">
         <img src={logo} className="h-20 w-20" alt="Logo" />
       </div> */}
-      <div className="h-auto w-full  bg-blue-100/40 rounded-3xl bg-clip-padding backdrop-blur-xs border border-gray-100 flex flex-col items-center p-6 ">
+      <div className="h-auto w-full max-w-md bg-blue-100/40 rounded-3xl bg-clip-padding backdrop-blur-xs border border-gray-100 flex flex-col items-center p-6 ">
         <h1 className="text-3xl font-bold mb-6 text-neutral-200">Vehicle Identifier</h1>
 
         {/* Tabs */}
