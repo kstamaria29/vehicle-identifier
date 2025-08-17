@@ -93,7 +93,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-tl from-slate-900 via-indigo-900 to-blue-800 flex justify-center px-4 py-8">
       <div className="h-auto w-full max-w-md bg-blue-100/40 rounded-3xl bg-clip-padding backdrop-blur-xs border border-gray-100 flex flex-col items-center p-6 ">
-        <h1 className="text-3xl font-bold mb-6 text-neutral-200">Vehicle Identifier</h1>
+        <h1 className="text-3xl font-bold mb-6 text-neutral-200">Vehicle Identifier v2</h1>
 
         {/* Card */}
         <div className="bg-white/50 shadow-lg rounded-xl p-6 w-full max-w-md">
