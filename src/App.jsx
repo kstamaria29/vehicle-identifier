@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import axios from "axios";
 
-import logo from "./assets/logo.png";
 
 export default function App() {
   const [loading, setLoading] = useState(false);
@@ -57,9 +56,8 @@ export default function App() {
       ]);
 
       setClassification(classRes.data.predictions[0]);
-      console.log(classification);
-
       setDetection(detectRes.data.predictions);
+      console.log(classification);
       console.log(detection);
     } catch (err) {
       console.error(err);
